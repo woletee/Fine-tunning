@@ -130,3 +130,4 @@ gpt2_model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
 gpt2_model.resize_token_embeddings(len(gpt2_tokenizer))
 
 print("Fine-tuning for CNN, AlexNet, U-Net, ViT, BERT, and GPT-2.")
+#this repository is for fine-tunning cnn, alznet, transformer, and other models too
