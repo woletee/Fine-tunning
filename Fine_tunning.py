@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader, Dataset
 import matplotlib.pyplot as plt
 import numpy as np
 from transformers import BertTokenizer, BertForSequenceClassification, GPT2Tokenizer, GPT2LMHeadModel
-
+import torch 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
