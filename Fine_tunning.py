@@ -133,3 +133,4 @@ print("Fine-tuning for CNN, AlexNet, U-Net, ViT, BERT, and GPT-2.")
 #this repository is for fine-tunning cnn, alznet, transformer, and other models too
 #please start from here for fixing the remaining part so that It can be clear
 import numpy as np
+import numpy as np
